@@ -21,7 +21,7 @@
   align-items: center;
 }
 .desktop {
-  min-height: 100vh;
+  min-height: 120vh;
   background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
@@ -38,6 +38,9 @@
 }
 .desktop-sizing {
   width: 80%;
+}
+.tablet-sizing {
+  width: 90%;
 }
 .mobile-sizing {
   width: 93%;
@@ -109,6 +112,7 @@
   text-transform: uppercase;
   font-family: 'Baloo Chettan', cursive;
   text-align: center;
+  margin: 2rem 0;
 }
 .section-maket p {
   font-size: 1.06rem;
@@ -157,6 +161,7 @@
   text-transform: uppercase;
   font-family: 'Baloo Chettan', cursive;
   text-align: center;
+  margin: 2rem 0;
 }
 .section-maket-tab p {
   font-size: 1.06rem;
@@ -238,6 +243,7 @@
   text-transform: uppercase;
   font-family: 'Baloo Chettan', cursive;
   text-align: center;
+  margin: 2rem 0;
 }
 .section-maket-mob p {
   font-size: 1.06rem;
@@ -631,7 +637,6 @@ header .header-overlay .header-info .header-text-box button:hover {
   }
 }
 .about {
-  min-height: 100vh;
   background-color: #fdfdfd;
   display: flex;
   flex-direction: column;
@@ -657,6 +662,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   text-transform: uppercase;
   font-family: 'Baloo Chettan', cursive;
   text-align: center;
+  margin: 2rem 0;
 }
 .about .about-overlay .about-title p {
   font-size: 1.06rem;
@@ -711,6 +717,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   text-transform: uppercase;
   font-family: 'Baloo Chettan', cursive;
   text-align: center;
+  margin: 2rem 0;
 }
 .about .about-overlay .about-info p {
   font-size: 1.06rem;
@@ -764,7 +771,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: #fdfdfd;
   }
   .about .about-overlay {
-    width: 80%;
+    width: 90%;
   }
   .about .about-overlay .about-title {
     min-height: 30vh;
@@ -775,6 +782,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     text-transform: uppercase;
     font-family: 'Baloo Chettan', cursive;
     text-align: center;
+    margin: 2rem 0;
   }
   .about .about-overlay .about-title p {
     font-size: 1.06rem;
@@ -862,6 +870,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     text-transform: uppercase;
     font-family: 'Baloo Chettan', cursive;
     text-align: center;
+    margin: 2rem 0;
   }
   .about .about-overlay .about-info p {
     font-size: 1.06rem;
@@ -960,6 +969,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     text-transform: uppercase;
     font-family: 'Baloo Chettan', cursive;
     text-align: center;
+    margin: 2rem 0;
   }
   .about .about-overlay .about-title p {
     font-size: 1.06rem;
@@ -1053,6 +1063,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     text-transform: uppercase;
     font-family: 'Baloo Chettan', cursive;
     text-align: center;
+    margin: 2rem 0;
   }
   .about .about-overlay .about-info p {
     font-size: 1.06rem;
@@ -1133,5 +1144,554 @@ header .header-overlay .header-info .header-text-box button:hover {
   }
   .about .about-overlay .about-info p {
     font-size: 0.95rem;
+  }
+  .about .about-overlay .about-info .clip {
+    display: none;
+  }
+  .about .about-overlay .about-info .clip-down {
+    display: none;
+  }
+}
+.classes {
+  min-height: 120vh;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.classes .classes-overlay {
+  width: 80%;
+}
+.classes .classes-overlay .classes-title h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.classes .classes-overlay .classes-title p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.classes .classes-overlay .classes-title button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.classes .classes-overlay .classes-title button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.classes .classes-overlay .classes-title .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.classes .classes-overlay .classes-title .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.classes .classes-overlay .classes-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.classes .classes-overlay .classes-info h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.classes .classes-overlay .classes-info p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.classes .classes-overlay .classes-info button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.classes .classes-overlay .classes-info button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.classes .classes-overlay .classes-info .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.classes .classes-overlay .classes-info .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.classes .classes-overlay .classes-info .classes-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.classes .classes-overlay .classes-info .classes-cards .classes-card {
+  width: 31.5%;
+}
+.classes .classes-overlay .classes-info .classes-cards .classes-card h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  transform: 0.3s linear;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 2.5rem 0;
+}
+.classes .classes-overlay .classes-info .classes-cards .classes-card h3:hover {
+  color: red;
+}
+.classes .classes-overlay .classes-info .clip {
+  top: 40%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .classes {
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  .classes .classes-overlay {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .classes .classes-overlay .classes-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .classes .classes-overlay .classes-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .classes .classes-overlay .classes-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .classes .classes-overlay .classes-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .classes .classes-overlay .classes-title h2 {
+    font-size: 3.5rem;
+  }
+  .classes .classes-overlay .classes-title p {
+    font-size: 1rem;
+  }
+  .classes .classes-overlay .classes-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-title .clip {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-title .clip-down {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .classes .classes-overlay .classes-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .classes .classes-overlay .classes-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .classes .classes-overlay .classes-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .classes .classes-overlay .classes-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .classes .classes-overlay .classes-info h2 {
+    font-size: 3.5rem;
+  }
+  .classes .classes-overlay .classes-info p {
+    font-size: 1rem;
+  }
+  .classes .classes-overlay .classes-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-info .clip-down {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-info .classes-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .classes .classes-overlay .classes-info .classes-cards .classes-card {
+    width: 30.5%;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    top: 40%;
+    width: 5%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .classes .classes-overlay {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .classes .classes-overlay .classes-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .classes .classes-overlay .classes-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .classes .classes-overlay .classes-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .classes .classes-overlay .classes-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .classes .classes-overlay .classes-title h2 {
+    font-size: 3.5rem;
+  }
+  .classes .classes-overlay .classes-title p {
+    font-size: 1rem;
+  }
+  .classes .classes-overlay .classes-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-title .clip {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-title .clip-down {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-title h2 {
+    font-size: 1.9rem;
+  }
+  .classes .classes-overlay .classes-title p {
+    font-size: 0.95rem;
+  }
+  .classes .classes-overlay .classes-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .classes .classes-overlay .classes-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .classes .classes-overlay .classes-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .classes .classes-overlay .classes-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .classes .classes-overlay .classes-info h2 {
+    font-size: 3.5rem;
+  }
+  .classes .classes-overlay .classes-info p {
+    font-size: 1rem;
+  }
+  .classes .classes-overlay .classes-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .classes .classes-overlay .classes-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-info .clip-down {
+    width: 5%;
+  }
+  .classes .classes-overlay .classes-info h2 {
+    font-size: 1.9rem;
+  }
+  .classes .classes-overlay .classes-info p {
+    font-size: 0.95rem;
+  }
+  .classes .classes-overlay .classes-info .classes-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .classes .classes-overlay .classes-info .classes-cards .classes-card {
+    width: 100%;
+  }
+  .classes .classes-overlay .classes-info .classes-cards .classes-card h3 {
+    font-size: 2rem;
+  }
+  .classes .classes-overlay .classes-info .clip {
+    display: none;
   }
 }

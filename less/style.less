@@ -323,7 +323,7 @@ header {
         .tablet();
     
         .about-overlay {
-            .desktop-sizing();
+            .tablet-sizing();
     
             .about-title {
                 .section-maket-tab();
@@ -352,6 +352,112 @@ header {
             .about-info {
                 .section-maket-mob();
                 .flex-box-cc();
+                .clip{
+                    display: none;
+                }
+                .clip-down{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+// CLASSES -------------------------------------------------------------------------
+
+.classes {
+    .desktop();
+    position: relative;
+    .classes-overlay{
+        .desktop-sizing();
+        .classes-title{
+            .section-maket();
+        }
+        .classes-info{
+            .section-maket();
+            .flex-box-cc();
+            .classes-cards{
+                .flex-box-sp();
+                .classes-card{
+                    width: 31.5%;
+                    h3{
+                        .subtitle();
+                        transform: .3s linear;
+                        font-weight: 700;
+                        font-size: 2.5rem;
+                        text-align: center;
+                        margin: 2.5rem 0;
+                        &:hover{
+                            color: @red;
+                        }
+                    }
+                }
+            }
+
+            .clip{
+                top: 40%;
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        .tablet();
+ 
+        .classes-overlay{
+            .tablet-sizing();
+            .flex-box-cc();
+
+            .classes-title{
+                .section-maket-tab();
+            }
+
+            .classes-info{
+                width: 90%;
+                .section-maket-tab();
+                .flex-box-cc();
+                .classes-cards{
+                    .flex-box-sp();
+                    .classes-card{
+                        width: 30.5%;
+                        
+                    }
+                }
+    
+                .clip{
+                    top: 40%;
+                    width: 5%;
+                }
+
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+ 
+        .classes-overlay{
+            .mobile-sizing();
+            .flex-box-cc();
+
+            .classes-title{
+                .section-maket-mob();
+            }
+
+            .classes-info{
+                .section-maket-mob();
+                .classes-cards{
+                    .flex-box-cc();
+                    .classes-card{
+                        width: 100%; 
+                        h3{
+                            font-size: 2rem;
+                        }   
+                    }
+                }
+    
+                .clip{
+                    display: none;
+                }
+
             }
         }
     }
