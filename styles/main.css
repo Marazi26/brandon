@@ -80,6 +80,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
 }
 .button:hover {
   background-color: red;
@@ -99,6 +100,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   padding: 1.2% 4%;
 }
 .button-tab:hover {
@@ -136,6 +138,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .section-maket button:hover {
@@ -185,6 +188,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .section-maket-tab button:hover {
@@ -223,6 +227,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   padding: 1.2% 4%;
   margin-top: 2rem;
 }
@@ -267,6 +272,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .section-maket-mob button:hover {
@@ -305,6 +311,7 @@
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   padding: 1.2% 4%;
   margin-top: 2rem;
 }
@@ -448,6 +455,7 @@ header .header-overlay .header-info .header-text-box button {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
 }
 header .header-overlay .header-info .header-text-box button:hover {
   background-color: red;
@@ -533,6 +541,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
   }
   header .header-overlay .header-info .header-text-box button:hover {
     background-color: red;
@@ -629,6 +638,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
   }
   header .header-overlay .header-info .header-text-box button:hover {
     background-color: red;
@@ -686,6 +696,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .about .about-overlay .about-title button:hover {
@@ -741,6 +752,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .about .about-overlay .about-info button:hover {
@@ -806,6 +818,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .about .about-overlay .about-title button:hover {
@@ -844,6 +857,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -894,6 +908,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .about .about-overlay .about-info button:hover {
@@ -932,6 +947,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -993,6 +1009,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .about .about-overlay .about-title button:hover {
@@ -1031,6 +1048,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1087,6 +1105,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .about .about-overlay .about-info button:hover {
@@ -1125,6 +1144,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1194,6 +1214,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .classes .classes-overlay .classes-title button:hover {
@@ -1249,6 +1270,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .classes .classes-overlay .classes-info button:hover {
@@ -1341,6 +1363,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .classes .classes-overlay .classes-title button:hover {
@@ -1379,6 +1402,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1430,6 +1454,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .classes .classes-overlay .classes-info button:hover {
@@ -1468,6 +1493,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1533,6 +1559,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .classes .classes-overlay .classes-title button:hover {
@@ -1571,6 +1598,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1621,6 +1649,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .classes .classes-overlay .classes-info button:hover {
@@ -1659,6 +1688,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1741,6 +1771,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .testimonial .testimonial-overlay .testimonial-title button:hover {
@@ -1796,6 +1827,7 @@ header .header-overlay .header-info .header-text-box button:hover {
   background-color: transparent;
   border: 1px solid #000000;
   border-radius: 3rem;
+  transition: 0.3s linear;
   margin-top: 2rem;
 }
 .testimonial .testimonial-overlay .testimonial-info button:hover {
@@ -1895,6 +1927,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .testimonial .testimonial-overlay .testimonial-title button:hover {
@@ -1933,6 +1966,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -1984,6 +2018,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .testimonial .testimonial-overlay .testimonial-info button:hover {
@@ -2022,6 +2057,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -2082,6 +2118,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .testimonial .testimonial-overlay .testimonial-title button:hover {
@@ -2120,6 +2157,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -2170,6 +2208,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     margin-top: 2rem;
   }
   .testimonial .testimonial-overlay .testimonial-info button:hover {
@@ -2208,6 +2247,7 @@ header .header-overlay .header-info .header-text-box button:hover {
     background-color: transparent;
     border: 1px solid #000000;
     border-radius: 3rem;
+    transition: 0.3s linear;
     padding: 1.2% 4%;
     margin-top: 2rem;
   }
@@ -2233,5 +2273,864 @@ header .header-overlay .header-info .header-text-box button:hover {
   }
   .testimonial .testimonial-overlay .testimonial-info .clip-down {
     display: none;
+  }
+}
+.contact {
+  min-height: 120vh;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  background-image: url("../assets/contact/test_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.contact .contact-overlay {
+  width: 80%;
+}
+.contact .contact-overlay .contact-title h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.contact .contact-overlay .contact-title p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.contact .contact-overlay .contact-title button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  transition: 0.3s linear;
+  margin-top: 2rem;
+}
+.contact .contact-overlay .contact-title button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-title .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.contact .contact-overlay .contact-title .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  transition: 0.3s linear;
+  margin-top: 2rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  transform: 0.3s linear;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form h3:hover {
+  color: red;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form form input {
+  width: 75%;
+  margin-bottom: 2.5rem;
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  outline: none;
+  border: none;
+  padding: 1% 0;
+  color: #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form form textarea {
+  width: 75%;
+  margin-bottom: 1.5rem;
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  outline: none;
+  border: none;
+  padding: 1% 0;
+  color: #b2b2b2;
+  border-bottom: 1px solid #b2b2b2;
+  resize: none;
+  margin-top: 3rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form form button {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  width: 50%;
+  background-color: #040408;
+  color: #ffffff;
+  padding: 2.5%;
+  border-radius: 1rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info-form .clip {
+  top: 40%;
+}
+.contact .contact-overlay .contact-info-container .contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-overlay .contact-info-container .contact-info h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.contact .contact-overlay .contact-info-container .contact-info p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  transition: 0.3s linear;
+  margin-top: 2rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.contact .contact-overlay .contact-info-container .contact-info .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.contact .contact-overlay .contact-info-container .contact-info .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.contact .contact-overlay .contact-info-container .contact-info ul {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+}
+.contact .contact-overlay .contact-info-container .contact-info ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-overlay .contact-info-container .contact-info ul li i {
+  font-size: 2rem;
+  transition: 0.3s linear;
+  margin-bottom: 0.5rem;
+}
+.contact .contact-overlay .contact-info-container .contact-info ul li a {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+}
+.contact .contact-overlay .contact-info-container .contact-info ul li:hover i {
+  color: red;
+}
+.contact .contact-overlay .contact-info-container .contact-info p {
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contact {
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  .contact .contact-overlay {
+    width: 90%;
+  }
+  .contact .contact-overlay .contact-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-title h2 {
+    font-size: 3.5rem;
+  }
+  .contact .contact-overlay .contact-title p {
+    font-size: 1rem;
+  }
+  .contact .contact-overlay .contact-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-title .clip {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-title .clip-down {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form {
+    width: 100%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form input {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form textarea {
+    width: 80%;
+    margin-top: 2rem 0 1.5rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form button {
+    font-size: 2rem;
+    width: 75%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip {
+    top: 40%;
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul li i {
+    font-size: 2rem;
+    transition: 0.3s linear;
+    margin-bottom: 0.5rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul li a {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul li:hover i {
+    color: red;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact .contact-overlay {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-title h2 {
+    font-size: 3.5rem;
+  }
+  .contact .contact-overlay .contact-title p {
+    font-size: 1rem;
+  }
+  .contact .contact-overlay .contact-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-title .clip {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-title .clip-down {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-title h2 {
+    font-size: 1.9rem;
+  }
+  .contact .contact-overlay .contact-title p {
+    font-size: 0.95rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form input {
+    width: 100%;
+    margin-bottom: 2.5rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form textarea {
+    width: 100%;
+    margin-top: 2rem 0 1.5rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form form button {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    width: 100%;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info-form .clip {
+    display: none;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info h2 {
+    font-size: 3.5rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-size: 1rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    transition: 0.3s linear;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info .clip-down {
+    width: 5%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info h2 {
+    font-size: 1.9rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-size: 0.95rem;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul {
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact .contact-overlay .contact-info-container .contact-info p {
+    font-weight: 500;
+    margin-top: 0;
+  }
+}
+footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbfdfd;
+}
+footer .footer-overlay {
+  width: 80%;
+}
+footer .footer-overlay p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  footer .footer-overlay {
+    width: 80%;
+  }
+  footer .footer-overlay p {
+    font-size: 0.9rem;
   }
 }
