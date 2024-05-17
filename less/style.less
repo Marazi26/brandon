@@ -462,3 +462,108 @@ header {
         }
     }
 }
+
+// TESTIMONIAL -------------------------------------------------------------------------
+
+.testimonial {
+    .tablet();
+    background-image: url("../assets/testimonial/test_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    .testimonial-overlay{
+        .desktop-sizing();
+        .testimonial-title{
+            .section-maket();
+        }
+        .testimonial-info{
+            .section-maket();
+            .flex-box-cc();
+
+            h3{
+                .subtitle();
+                transform: .3s linear;
+                color: @red;
+                font-weight: 700;
+                text-align: center;
+                margin: 2rem 0;
+                &:hover{
+                    color: @red;
+                }
+            }
+
+            .testimonial-slides{
+                .flex-box-sp();
+                margin-top: 1rem;
+                .testimonial-slide{
+                    width: 3rem;
+                    height: .5rem;
+                    border-radius: .5rem;
+                    background-color: @title-color;
+                    &:first-child{
+                        background-color: @red;
+                    }
+                }
+            }
+
+            .clip{
+                top: 40%;
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        .tablet();
+ 
+        .testimonial-overlay{
+            .tablet-sizing();
+            .flex-box-cc();
+
+            .testimonial-title{
+                .section-maket-tab();
+            }
+
+            .testimonial-info{
+                width: 90%;
+                .section-maket-tab();
+                .flex-box-cc();
+
+                h3{
+                    margin: 0;
+                }
+    
+                .clip-down{
+                    top: 40%;
+                    width: 5%;
+                }
+
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+ 
+        .testimonial-overlay{
+            .mobile-sizing();
+            .flex-box-cc();
+
+            .testimonial-title{
+                .section-maket-mob();
+            }
+
+            .testimonial-info{
+                .section-maket-mob();
+    
+                h3{
+                    margin: 0;
+                }
+                .clip-down{
+                    display: none;
+                }
+
+            }
+        }
+    }
+}

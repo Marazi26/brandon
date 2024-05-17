@@ -1695,3 +1695,543 @@ header .header-overlay .header-info .header-text-box button:hover {
     display: none;
   }
 }
+.testimonial {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+  background-image: url("../assets/testimonial/test_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.testimonial .testimonial-overlay {
+  width: 80%;
+}
+.testimonial .testimonial-overlay .testimonial-title h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.testimonial .testimonial-overlay .testimonial-title p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.testimonial .testimonial-overlay .testimonial-title button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.testimonial .testimonial-overlay .testimonial-title button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.testimonial .testimonial-overlay .testimonial-title .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.testimonial .testimonial-overlay .testimonial-title .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.testimonial .testimonial-overlay .testimonial-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial .testimonial-overlay .testimonial-info h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+  margin: 2rem 0;
+}
+.testimonial .testimonial-overlay .testimonial-info p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.testimonial .testimonial-overlay .testimonial-info button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.testimonial .testimonial-overlay .testimonial-info button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.testimonial .testimonial-overlay .testimonial-info .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.testimonial .testimonial-overlay .testimonial-info .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.testimonial .testimonial-overlay .testimonial-info h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  transform: 0.3s linear;
+  color: red;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem 0;
+}
+.testimonial .testimonial-overlay .testimonial-info h3:hover {
+  color: red;
+}
+.testimonial .testimonial-overlay .testimonial-info .testimonial-slides {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+.testimonial .testimonial-overlay .testimonial-info .testimonial-slides .testimonial-slide {
+  width: 3rem;
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #040408;
+}
+.testimonial .testimonial-overlay .testimonial-info .testimonial-slides .testimonial-slide:first-child {
+  background-color: red;
+}
+.testimonial .testimonial-overlay .testimonial-info .clip {
+  top: 40%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .testimonial {
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  .testimonial .testimonial-overlay {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial .testimonial-overlay .testimonial-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title h2 {
+    font-size: 3.5rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title p {
+    font-size: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip-down {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h2 {
+    font-size: 3.5rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info p {
+    font-size: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h3 {
+    margin: 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    top: 40%;
+    width: 5%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .testimonial .testimonial-overlay {
+    width: 93%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial .testimonial-overlay .testimonial-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title h2 {
+    font-size: 3.5rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title p {
+    font-size: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title .clip-down {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-title h2 {
+    font-size: 1.9rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-title p {
+    font-size: 0.95rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h2 {
+    font-size: 3.5rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info p {
+    font-size: 1rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    width: 5%;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h2 {
+    font-size: 1.9rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info p {
+    font-size: 0.95rem;
+  }
+  .testimonial .testimonial-overlay .testimonial-info h3 {
+    margin: 0;
+  }
+  .testimonial .testimonial-overlay .testimonial-info .clip-down {
+    display: none;
+  }
+}
