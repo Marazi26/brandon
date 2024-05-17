@@ -1,0 +1,358 @@
+@import "./mixin.less";
+@import "./variables.less";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+// HEADER -------------------------------------------------------------------------
+
+header {
+    min-height: 120vh;
+    background-image: url("../assets/header/banner.jpg");
+    background-size: 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    nav {
+        min-height: 13vh;
+        .flex-box-cc();
+        justify-content: flex-end;
+        width: 100%;
+
+        .nav-overlay {
+            .mobile-sizing();
+            .flex-box-sp();
+
+            .menu-nav {
+                .flex-box();
+                gap: 4rem;
+
+                a {
+                    .subtitle();
+                }
+
+                .burger-menu {
+                    .flex-box-cc();
+                    align-items: flex-end;
+
+                    .menu-item {
+                        margin-top: .5rem;
+                        width: 3.5rem;
+                        height: .4rem;
+                        border-radius: .2rem;
+                        background-color: @red;
+                    }
+
+                    .menu-item-mid {
+                        width: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .header-overlay {
+        .flex-box-cc();
+        padding-top: 13%;
+
+        .header-info {
+            .desktop-sizing();
+
+            .header-text-img {
+                position: relative;
+
+                h1 {
+                    width: 50%;
+                    font-family: @poppins;
+                    font-weight: 800;
+                    letter-spacing: .1rem;
+                    font-size: 5.58rem;
+                    line-height: 5.8rem;
+                }
+
+                img {
+                    position: absolute;
+                    top: -30%;
+                    // top: 0;
+                    left: 31%;
+                    width: 36.3%;
+                    z-index: 1;
+                }
+            }
+
+            .header-text-box {
+                p {
+                    .norm-text();
+                    font-weight: 500;
+                    padding-top: 9.5rem;
+                    width: 40%;
+                    position: sticky;
+                    z-index: 2;
+                }
+
+                button {
+                    margin-top: 2rem;
+                    .button();
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        nav {
+            min-height: 10vh;
+
+            .nav-overlay {
+                .logo-nav {
+                    img {
+                        width: 70%;
+                    }
+                }
+
+                .menu-nav {
+                    gap: 3rem;
+
+                    .burger-menu {
+                        .menu-item {
+                            margin-top: .5rem;
+                            width: 3rem;
+                            height: .35rem;
+                        }
+
+                        .menu-item-mid {
+                            width: 2rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        min-height: 65vh;
+
+        .header-overlay {
+            .flex-box-cc();
+            padding-top: 13%;
+
+            .header-info {
+                .desktop-sizing();
+
+                .header-text-img {
+                    position: relative;
+
+                    h1 {
+                        width: 100%;
+                        font-family: @poppins;
+                        font-weight: 800;
+                        letter-spacing: .1rem;
+                        font-size: 3.58rem;
+                        line-height: 3.8rem;
+
+                        span {
+                            padding-left: 18%;
+                        }
+                    }
+
+                    img {
+                        position: absolute;
+                        top: -80%;
+                        left: 37%;
+                        width: 30%;
+                        z-index: 1;
+                    }
+                }
+
+                .header-text-box {
+                    p {
+                        .norm-text();
+                        font-weight: 500;
+                        margin-top: 3rem;
+                        padding-top: 0;
+                        width: 60%;
+                        position: sticky;
+                        z-index: 2;
+                        background-color: #ffffff7f;
+                    }
+
+                    button {
+                        margin-top: 2rem;
+                        .button();
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+
+        background-image: unset;
+        min-height: 70vh;
+
+        nav {
+            min-height: 11vh;
+
+            .nav-overlay {
+                .flex-box-cc();
+
+                .logo-nav {
+                    width: 100%;
+
+                    img {
+                        max-width: 37%;
+                    }
+                }
+
+                .menu-nav {
+                    width: 100%;
+                    .flex-box();
+                    justify-content: flex-end;
+                    gap: 1.5rem;
+
+                    a {
+                        font-size: 1.4rem;
+                    }
+
+                    .burger-menu {
+                        .menu-item {
+                            margin-top: .3rem;
+                            width: 2rem;
+                            height: .25rem;
+                        }
+
+                        .menu-item-mid {
+                            width: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .header-overlay {
+            .flex-box-cc();
+            padding-top: 8%;
+
+            .header-info {
+                .mobile-sizing();
+
+                .header-text-img {
+                    position: relative;
+
+                    h1 {
+                        width: 100%;
+                        font-family: @poppins;
+                        font-weight: 800;
+                        letter-spacing: .1rem;
+                        font-size: 2.18rem;
+                        line-height: 3.8rem;
+
+                        span {
+                            padding-left: 0;
+                        }
+                    }
+
+                    img {
+                        position: static;
+                    }
+                }
+
+                .header-text-box {
+                    p {
+                        font-weight: 500;
+                        font-size: .9rem;
+                        margin-top: 2rem;
+                        padding-top: 0;
+                        width: 100%;
+                        position: static;
+                    }
+
+                    button {
+                        margin-top: 2rem;
+                        .button();
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ABOUT -------------------------------------------------------------------------
+
+.about {
+    .desktop();
+    margin-top: 5rem;
+    min-height: 120vh;
+    position: relative;
+
+    .about-overlay {
+        .desktop-sizing();
+
+        .about-title {
+            .section-maket();
+            min-height: 90vh;
+
+            background-image: url("../assets/about/about_img.png");
+            background-size: 90%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .about-info {
+            .section-maket();
+            .flex-box-cc();
+        }
+    }
+
+    @media screen and (min-width:768px) and (max-width:1024px) {
+        margin-top: 4rem;
+        .tablet();
+    
+        .about-overlay {
+            .desktop-sizing();
+    
+            .about-title {
+                .section-maket-tab();
+                min-height: 30vh;
+            }
+    
+            .about-info {
+                .section-maket-tab();
+                .flex-box-cc();
+            }
+        }
+    }
+
+    @media screen and (min-width:320px) and (max-width:768px) {
+        margin-top: 4rem;
+        .tablet();
+    
+        .about-overlay {
+            .desktop-sizing();
+    
+            .about-title {
+                .section-maket-mob();
+                min-height: 25vh;
+            }
+    
+            .about-info {
+                .section-maket-mob();
+                .flex-box-cc();
+            }
+        }
+    }
+}
