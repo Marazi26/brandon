@@ -1,0 +1,158 @@
+.flex-box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.flex-box-sp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-box-cc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desktop {
+    min-height: 100vh;
+    background-color: @section-bg;
+    .flex-box-cc();
+}
+
+.tablet{
+    min-height: 55vh;
+    .flex-box-cc();
+    background-color: @section-bg;
+}
+.desktop-sizing {
+    width: 80%;
+}
+
+.mobile-sizing {
+    width: 93%;
+}
+
+/*** TEXTS *********************************/
+
+.norm-text {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: @poppins;
+    color: @paragraph-color;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: @poppins;
+    color: @paragraph-color;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: @baloo;
+    text-align: center;
+}
+
+.button {
+    outline: none;
+    border: none;
+    .subtitle();
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid @button-color;
+    border-radius: 3rem;
+
+    &:hover {
+        background-color: @red;
+    border: 1px solid @red;
+        color: @white;
+    }
+}
+
+.button-tab {
+    .button();
+    padding: 1.2% 4%;
+}
+
+.section-maket {
+    h2 {
+        .title();
+    }
+
+    p {
+        .norm-text();
+        text-align: center;
+        width: 97%;
+        margin-top: 1rem;
+    }
+
+    button {
+        .button();
+        margin-top: 2rem;
+    }
+
+    .clip {
+        width: 4%;
+        position: absolute;
+        top: 0;
+        left: 2%;
+    }
+
+    .clip-down {
+        width: 4%;
+        position: absolute;
+        bottom: 0;
+        right: 2%;
+    }
+}
+
+.section-maket-tab{
+    .section-maket();
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        .button-tab();
+        margin-top: 2rem;
+    }
+
+    .clip {
+        width: 5%;
+    }
+
+    .clip-down {
+        width: 5%;
+    }
+}
+
+.section-maket-mob{
+    .section-maket-tab();
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    p {
+        font-size: .95rem;
+    }
+}

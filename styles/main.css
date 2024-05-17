@@ -1,0 +1,1137 @@
+.flex-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.flex-box-sp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-box-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-box-cc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desktop {
+  min-height: 100vh;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tablet {
+  min-height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdfdfd;
+}
+.desktop-sizing {
+  width: 80%;
+}
+.mobile-sizing {
+  width: 93%;
+}
+/*** TEXTS *********************************/
+.norm-text {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+}
+.subtitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+}
+.title {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+}
+.button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.button-tab {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  padding: 1.2% 4%;
+}
+.button-tab:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.section-maket p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.section-maket button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.section-maket button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.section-maket .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.section-maket-tab h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.section-maket-tab p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.section-maket-tab button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.section-maket-tab button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket-tab .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.section-maket-tab .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.section-maket-tab h2 {
+  font-size: 3.5rem;
+}
+.section-maket-tab p {
+  font-size: 1rem;
+}
+.section-maket-tab button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  padding: 1.2% 4%;
+  margin-top: 2rem;
+}
+.section-maket-tab button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket-tab .clip {
+  width: 5%;
+}
+.section-maket-tab .clip-down {
+  width: 5%;
+}
+.section-maket-mob h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.section-maket-mob p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.section-maket-mob button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.section-maket-mob button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket-mob .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.section-maket-mob .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.section-maket-mob h2 {
+  font-size: 3.5rem;
+}
+.section-maket-mob p {
+  font-size: 1rem;
+}
+.section-maket-mob button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  padding: 1.2% 4%;
+  margin-top: 2rem;
+}
+.section-maket-mob button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.section-maket-mob .clip {
+  width: 5%;
+}
+.section-maket-mob .clip-down {
+  width: 5%;
+}
+.section-maket-mob h2 {
+  font-size: 1.9rem;
+}
+.section-maket-mob p {
+  font-size: 0.95rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol {
+  list-style: none;
+}
+header {
+  min-height: 120vh;
+  background-image: url("../assets/header/banner.jpg");
+  background-size: 95%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header nav {
+  min-height: 13vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+header nav .nav-overlay {
+  width: 93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .nav-overlay .menu-nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  gap: 4rem;
+}
+header nav .nav-overlay .menu-nav a {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+}
+header nav .nav-overlay .menu-nav .burger-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+}
+header nav .nav-overlay .menu-nav .burger-menu .menu-item {
+  margin-top: 0.5rem;
+  width: 3.5rem;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background-color: red;
+}
+header nav .nav-overlay .menu-nav .burger-menu .menu-item-mid {
+  width: 2rem;
+}
+header .header-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 13%;
+}
+header .header-overlay .header-info {
+  width: 80%;
+}
+header .header-overlay .header-info .header-text-img {
+  position: relative;
+}
+header .header-overlay .header-info .header-text-img h1 {
+  width: 50%;
+  font-family: Poppins, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  font-size: 5.58rem;
+  line-height: 5.8rem;
+}
+header .header-overlay .header-info .header-text-img img {
+  position: absolute;
+  top: -30%;
+  left: 31%;
+  width: 36.3%;
+  z-index: 1;
+}
+header .header-overlay .header-info .header-text-box p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  font-weight: 500;
+  padding-top: 9.5rem;
+  width: 40%;
+  position: sticky;
+  z-index: 2;
+}
+header .header-overlay .header-info .header-text-box button {
+  margin-top: 2rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+}
+header .header-overlay .header-info .header-text-box button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    min-height: 65vh;
+  }
+  header nav {
+    min-height: 10vh;
+  }
+  header nav .nav-overlay .logo-nav img {
+    width: 70%;
+  }
+  header nav .nav-overlay .menu-nav {
+    gap: 3rem;
+  }
+  header nav .nav-overlay .menu-nav .burger-menu .menu-item {
+    margin-top: 0.5rem;
+    width: 3rem;
+    height: 0.35rem;
+  }
+  header nav .nav-overlay .menu-nav .burger-menu .menu-item-mid {
+    width: 2rem;
+  }
+  header .header-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+  }
+  header .header-overlay .header-info {
+    width: 80%;
+  }
+  header .header-overlay .header-info .header-text-img {
+    position: relative;
+  }
+  header .header-overlay .header-info .header-text-img h1 {
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-size: 3.58rem;
+    line-height: 3.8rem;
+  }
+  header .header-overlay .header-info .header-text-img h1 span {
+    padding-left: 18%;
+  }
+  header .header-overlay .header-info .header-text-img img {
+    position: absolute;
+    top: -80%;
+    left: 37%;
+    width: 30%;
+    z-index: 1;
+  }
+  header .header-overlay .header-info .header-text-box p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    font-weight: 500;
+    margin-top: 3rem;
+    padding-top: 0;
+    width: 60%;
+    position: sticky;
+    z-index: 2;
+    background-color: #ffffff7f;
+  }
+  header .header-overlay .header-info .header-text-box button {
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+  }
+  header .header-overlay .header-info .header-text-box button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    background-image: unset;
+    min-height: 70vh;
+  }
+  header nav {
+    min-height: 11vh;
+  }
+  header nav .nav-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header nav .nav-overlay .logo-nav {
+    width: 100%;
+  }
+  header nav .nav-overlay .logo-nav img {
+    max-width: 37%;
+  }
+  header nav .nav-overlay .menu-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    justify-content: flex-end;
+    gap: 1.5rem;
+  }
+  header nav .nav-overlay .menu-nav a {
+    font-size: 1.4rem;
+  }
+  header nav .nav-overlay .menu-nav .burger-menu .menu-item {
+    margin-top: 0.3rem;
+    width: 2rem;
+    height: 0.25rem;
+  }
+  header nav .nav-overlay .menu-nav .burger-menu .menu-item-mid {
+    width: 1.5rem;
+  }
+  header .header-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+  }
+  header .header-overlay .header-info {
+    width: 93%;
+  }
+  header .header-overlay .header-info .header-text-img {
+    position: relative;
+  }
+  header .header-overlay .header-info .header-text-img h1 {
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.1rem;
+    font-size: 2.18rem;
+    line-height: 3.8rem;
+  }
+  header .header-overlay .header-info .header-text-img h1 span {
+    padding-left: 0;
+  }
+  header .header-overlay .header-info .header-text-img img {
+    position: static;
+  }
+  header .header-overlay .header-info .header-text-box p {
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    padding-top: 0;
+    width: 100%;
+    position: static;
+  }
+  header .header-overlay .header-info .header-text-box button {
+    margin-top: 2rem;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+  }
+  header .header-overlay .header-info .header-text-box button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+}
+.about {
+  min-height: 100vh;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  min-height: 120vh;
+  position: relative;
+}
+.about .about-overlay {
+  width: 80%;
+}
+.about .about-overlay .about-title {
+  min-height: 90vh;
+  background-image: url("../assets/about/about_img.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.about .about-overlay .about-title h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.about .about-overlay .about-title p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.about .about-overlay .about-title button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.about .about-overlay .about-title button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.about .about-overlay .about-title .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.about .about-overlay .about-title .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+.about .about-overlay .about-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about .about-overlay .about-info h2 {
+  font-size: 3.75rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  font-family: 'Baloo Chettan', cursive;
+  text-align: center;
+}
+.about .about-overlay .about-info p {
+  font-size: 1.06rem;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-align: center;
+  width: 97%;
+  margin-top: 1rem;
+}
+.about .about-overlay .about-info button {
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  font-family: Poppins, sans-serif;
+  color: #2a2a2c;
+  text-transform: uppercase;
+  padding: 1.5% 5%;
+  background-color: transparent;
+  border: 1px solid #000000;
+  border-radius: 3rem;
+  margin-top: 2rem;
+}
+.about .about-overlay .about-info button:hover {
+  background-color: red;
+  border: 1px solid red;
+  color: #ffffff;
+}
+.about .about-overlay .about-info .clip {
+  width: 4%;
+  position: absolute;
+  top: 0;
+  left: 2%;
+}
+.about .about-overlay .about-info .clip-down {
+  width: 4%;
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .about {
+    margin-top: 4rem;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  .about .about-overlay {
+    width: 80%;
+  }
+  .about .about-overlay .about-title {
+    min-height: 30vh;
+  }
+  .about .about-overlay .about-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+  }
+  .about .about-overlay .about-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .about .about-overlay .about-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .about .about-overlay .about-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .about .about-overlay .about-title h2 {
+    font-size: 3.5rem;
+  }
+  .about .about-overlay .about-title p {
+    font-size: 1rem;
+  }
+  .about .about-overlay .about-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-title .clip {
+    width: 5%;
+  }
+  .about .about-overlay .about-title .clip-down {
+    width: 5%;
+  }
+  .about .about-overlay .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-overlay .about-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+  }
+  .about .about-overlay .about-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .about .about-overlay .about-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .about .about-overlay .about-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .about .about-overlay .about-info h2 {
+    font-size: 3.5rem;
+  }
+  .about .about-overlay .about-info p {
+    font-size: 1rem;
+  }
+  .about .about-overlay .about-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-info .clip {
+    width: 5%;
+  }
+  .about .about-overlay .about-info .clip-down {
+    width: 5%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about {
+    margin-top: 4rem;
+    min-height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfdfd;
+  }
+  .about .about-overlay {
+    width: 80%;
+  }
+  .about .about-overlay .about-title {
+    min-height: 25vh;
+  }
+  .about .about-overlay .about-title h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+  }
+  .about .about-overlay .about-title p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .about .about-overlay .about-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-title .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .about .about-overlay .about-title .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .about .about-overlay .about-title h2 {
+    font-size: 3.5rem;
+  }
+  .about .about-overlay .about-title p {
+    font-size: 1rem;
+  }
+  .about .about-overlay .about-title button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-title button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-title .clip {
+    width: 5%;
+  }
+  .about .about-overlay .about-title .clip-down {
+    width: 5%;
+  }
+  .about .about-overlay .about-title h2 {
+    font-size: 1.9rem;
+  }
+  .about .about-overlay .about-title p {
+    font-size: 0.95rem;
+  }
+  .about .about-overlay .about-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about-overlay .about-info h2 {
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+    font-family: 'Baloo Chettan', cursive;
+    text-align: center;
+  }
+  .about .about-overlay .about-info p {
+    font-size: 1.06rem;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-align: center;
+    width: 97%;
+    margin-top: 1rem;
+  }
+  .about .about-overlay .about-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-info .clip {
+    width: 4%;
+    position: absolute;
+    top: 0;
+    left: 2%;
+  }
+  .about .about-overlay .about-info .clip-down {
+    width: 4%;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+  }
+  .about .about-overlay .about-info h2 {
+    font-size: 3.5rem;
+  }
+  .about .about-overlay .about-info p {
+    font-size: 1rem;
+  }
+  .about .about-overlay .about-info button {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    font-family: Poppins, sans-serif;
+    color: #2a2a2c;
+    text-transform: uppercase;
+    padding: 1.5% 5%;
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 3rem;
+    padding: 1.2% 4%;
+    margin-top: 2rem;
+  }
+  .about .about-overlay .about-info button:hover {
+    background-color: red;
+    border: 1px solid red;
+    color: #ffffff;
+  }
+  .about .about-overlay .about-info .clip {
+    width: 5%;
+  }
+  .about .about-overlay .about-info .clip-down {
+    width: 5%;
+  }
+  .about .about-overlay .about-info h2 {
+    font-size: 1.9rem;
+  }
+  .about .about-overlay .about-info p {
+    font-size: 0.95rem;
+  }
+}
